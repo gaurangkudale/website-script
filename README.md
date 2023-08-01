@@ -16,11 +16,11 @@ Before running the script, ensure that you have the following prerequisites inst
 
 To use the script, follow the steps below:
 
-1. Clone this repository or download the `create_lemp_stack.py` script to your local machine.
+1. Clone this repository or download the `website.py` script to your local machine.
 
 2. Open a terminal (command prompt) on your system.
 
-3. Navigate to the directory where the `create_lemp_stack.py` script is located.
+3. Navigate to the directory where the `website.py` script is located.
 
 4. Run the script with the following syntax:
 
@@ -33,16 +33,16 @@ To use the script, follow the steps below:
 ## Subcommands
 
 1. `create`: Creates a LEMP stack for the specified site name.
-- Example: `python3 create_lemp_stack.py create example.com`
+- Example: `python3 website.py create example.com`
 
 2. `enable`: Enables (starts) the existing LEMP stack for the specified site name.
-- Example: `python3 create_lemp_stack.py enable example.com`
+- Example: `python3 website.py enable example.com`
 
 3. `disable`: Disables (stops) the existing LEMP stack for the specified site name.
-- Example: `python3 create_lemp_stack.py disable example.com`
+- Example: `python3 website.py disable example.com`
 
 4. `delete`: Deletes the existing LEMP stack for the specified site name.
-- Example: `python3 create_lemp_stack.py delete example.com`
+- Example: `python3 website.py delete example.com`
 
 Please note that this script assumes you have appropriate permissions to run Docker commands with `sudo`.
 
