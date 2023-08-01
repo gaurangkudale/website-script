@@ -46,5 +46,26 @@ To use the script, follow the steps below:
 
 Please note that this script assumes you have appropriate permissions to run Docker commands with `sudo`.
 
+## Example
 
+1. Create LEMP Stack
+```bash 
+sudo python3 website.py create example.com
+```
+2. Enable/Disable LEMP Stack
+```bash
+sudo python3 website.py enable example.com
+```
+```bash
+sudo python3 website.py disable example.com
+```
+
+3. Delete LEMP Stack
+```bash 
+sudo python3 website.py delete example.com
+```
+4. Now, you should be able to access the website using the site name example.com in your web browser. Open your web browser and enter the following URL:
+```bash
+http://example.com
+```
 
